@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_T1QrcPtcEemZLMWfUrvw4g" name="uml">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_T7uf0PtcEemZLMWfUrvw4g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_aTaaoPtcEemZLMWfUrvw4g" name="Test" useCase="_eEEBwPtcEemZLMWfUrvw4g _vkA1APtdEemZLMWfUrvw4g _21WUoPtdEemZLMWfUrvw4g _5rMgYPtdEemZLMWfUrvw4g _BUAE0PteEemZLMWfUrvw4g _4dVwsPteEemZLMWfUrvw4g _DQF2sPthEemZLMWfUrvw4g _L7xNYPthEemZLMWfUrvw4g _lGeiUPthEemZLMWfUrvw4g _pKBQQPthEemZLMWfUrvw4g _Kh3usPvDEemI2q5Paz1LZw" fileName="">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_eEEBwPtcEemZLMWfUrvw4g" name="Wine list" subject="_aTaaoPtcEemZLMWfUrvw4g">
+      <include xmi:type="uml:Include" xmi:id="_NrGkYPteEemZLMWfUrvw4g" addition="_BUAE0PteEemZLMWfUrvw4g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_vkA1APtdEemZLMWfUrvw4g" name="Search wine" subject="_aTaaoPtcEemZLMWfUrvw4g">
+      <include xmi:type="uml:Include" xmi:id="_O_83cPteEemZLMWfUrvw4g" addition="_BUAE0PteEemZLMWfUrvw4g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_21WUoPtdEemZLMWfUrvw4g" name="Register" subject="_aTaaoPtcEemZLMWfUrvw4g"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_5rMgYPtdEemZLMWfUrvw4g" name="Log-in" subject="_aTaaoPtcEemZLMWfUrvw4g">
+      <include xmi:type="uml:Include" xmi:id="_-bZqkPteEemZLMWfUrvw4g" addition="_4dVwsPteEemZLMWfUrvw4g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_BUAE0PteEemZLMWfUrvw4g" name="catalog reading management" subject="_aTaaoPtcEemZLMWfUrvw4g"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4dVwsPteEemZLMWfUrvw4g" name="Verify Email and password" subject="_aTaaoPtcEemZLMWfUrvw4g"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_DQF2sPthEemZLMWfUrvw4g" name="Read Notification " subject="_aTaaoPtcEemZLMWfUrvw4g"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_L7xNYPthEemZLMWfUrvw4g" name="Buy wine" subject="_aTaaoPtcEemZLMWfUrvw4g">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_O2dJUPvDEemI2q5Paz1LZw" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_2Vy28PvCEemI2q5Paz1LZw" addition="_BUAE0PteEemZLMWfUrvw4g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_lGeiUPthEemZLMWfUrvw4g" name="Add wine" subject="_aTaaoPtcEemZLMWfUrvw4g">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_RHTxoPvDEemI2q5Paz1LZw" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="__5fawPvCEemI2q5Paz1LZw" addition="_BUAE0PteEemZLMWfUrvw4g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pKBQQPthEemZLMWfUrvw4g" name="View order list" subject="_aTaaoPtcEemZLMWfUrvw4g"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Kh3usPvDEemI2q5Paz1LZw" name="send notification" subject="_aTaaoPtcEemZLMWfUrvw4g">
+      <extend xmi:type="uml:Extend" xmi:id="_O2atEPvDEemI2q5Paz1LZw" extendedCase="_L7xNYPthEemZLMWfUrvw4g" extensionLocation="_O2dJUPvDEemI2q5Paz1LZw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_RHSjgPvDEemI2q5Paz1LZw" extendedCase="_lGeiUPthEemZLMWfUrvw4g" extensionLocation="_RHTxoPvDEemI2q5Paz1LZw"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jQlxAPtcEemZLMWfUrvw4g" name="person"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_V-l6APtdEemZLMWfUrvw4g" memberEnd="_V-rZkPtdEemZLMWfUrvw4g _V-rZkftdEemZLMWfUrvw4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V-qLcPtdEemZLMWfUrvw4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V-qLcftdEemZLMWfUrvw4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V-rZkPtdEemZLMWfUrvw4g" name="usecase1" type="_eEEBwPtcEemZLMWfUrvw4g" association="_V-l6APtdEemZLMWfUrvw4g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V-rZkftdEemZLMWfUrvw4g" name="person" type="_jQlxAPtcEemZLMWfUrvw4g" association="_V-l6APtdEemZLMWfUrvw4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zd3bcPtdEemZLMWfUrvw4g" memberEnd="_zd4CgvtdEemZLMWfUrvw4g _zd4Cg_tdEemZLMWfUrvw4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zd4CgPtdEemZLMWfUrvw4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zd4CgftdEemZLMWfUrvw4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zd4CgvtdEemZLMWfUrvw4g" name="cerca vino" type="_vkA1APtdEemZLMWfUrvw4g" association="_zd3bcPtdEemZLMWfUrvw4g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zd4Cg_tdEemZLMWfUrvw4g" name="person" type="_jQlxAPtcEemZLMWfUrvw4g" association="_zd3bcPtdEemZLMWfUrvw4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_758P4PtdEemZLMWfUrvw4g" memberEnd="_758P4_tdEemZLMWfUrvw4g _758P5PtdEemZLMWfUrvw4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_758P4ftdEemZLMWfUrvw4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_758P4vtdEemZLMWfUrvw4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_758P4_tdEemZLMWfUrvw4g" name="iscrizione" type="_21WUoPtdEemZLMWfUrvw4g" association="_758P4PtdEemZLMWfUrvw4g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_758P5PtdEemZLMWfUrvw4g" name="person" type="_jQlxAPtcEemZLMWfUrvw4g" association="_758P4PtdEemZLMWfUrvw4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_gDnz0PteEemZLMWfUrvw4g" name="User">
+    <generalization xmi:type="uml:Generalization" xmi:id="_hN_DQPtgEemZLMWfUrvw4g" general="_jQlxAPtcEemZLMWfUrvw4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pFQMYPteEemZLMWfUrvw4g" memberEnd="_pFQzcvteEemZLMWfUrvw4g _pFQzc_teEemZLMWfUrvw4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pFQzcPteEemZLMWfUrvw4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pFQzcfteEemZLMWfUrvw4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pFQzcvteEemZLMWfUrvw4g" name="log-in" type="_5rMgYPtdEemZLMWfUrvw4g" association="_pFQMYPteEemZLMWfUrvw4g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pFQzc_teEemZLMWfUrvw4g" name="user" type="_gDnz0PteEemZLMWfUrvw4g" association="_pFQMYPteEemZLMWfUrvw4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_P7V2wPtgEemZLMWfUrvw4g" name="Admin">
+    <generalization xmi:type="uml:Generalization" xmi:id="_TAu6YPtgEemZLMWfUrvw4g" general="_gDnz0PteEemZLMWfUrvw4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_G8iTQPthEemZLMWfUrvw4g" memberEnd="_G8i6UPthEemZLMWfUrvw4g _G8i6UfthEemZLMWfUrvw4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G8iTQfthEemZLMWfUrvw4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G8iTQvthEemZLMWfUrvw4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_G8i6UPthEemZLMWfUrvw4g" name="visualizza notifiche" type="_DQF2sPthEemZLMWfUrvw4g" association="_G8iTQPthEemZLMWfUrvw4g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_G8i6UfthEemZLMWfUrvw4g" type="_gDnz0PteEemZLMWfUrvw4g" association="_G8iTQPthEemZLMWfUrvw4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QAN6QPthEemZLMWfUrvw4g" memberEnd="_QAN6Q_thEemZLMWfUrvw4g _QAN6RPthEemZLMWfUrvw4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QAN6QfthEemZLMWfUrvw4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QAN6QvthEemZLMWfUrvw4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QAN6Q_thEemZLMWfUrvw4g" name="ordina vino" type="_L7xNYPthEemZLMWfUrvw4g" association="_QAN6QPthEemZLMWfUrvw4g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QAN6RPthEemZLMWfUrvw4g" type="_gDnz0PteEemZLMWfUrvw4g" association="_QAN6QPthEemZLMWfUrvw4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_z4HwEPvBEemI2q5Paz1LZw" memberEnd="_z4Pr4PvBEemI2q5Paz1LZw _z4QS8PvBEemI2q5Paz1LZw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z4NPoPvBEemI2q5Paz1LZw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z4NPofvBEemI2q5Paz1LZw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_z4Pr4PvBEemI2q5Paz1LZw" name="aggiungi vino" type="_lGeiUPthEemZLMWfUrvw4g" association="_z4HwEPvBEemI2q5Paz1LZw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_z4QS8PvBEemI2q5Paz1LZw" name="admin" type="_P7V2wPtgEemZLMWfUrvw4g" association="_z4HwEPvBEemI2q5Paz1LZw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0sfzUPvBEemI2q5Paz1LZw" memberEnd="_0shogvvBEemI2q5Paz1LZw _0shog_vBEemI2q5Paz1LZw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0shogPvBEemI2q5Paz1LZw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0shogfvBEemI2q5Paz1LZw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0shogvvBEemI2q5Paz1LZw" name="visualizza lista ordini" type="_pKBQQPthEemZLMWfUrvw4g" association="_0sfzUPvBEemI2q5Paz1LZw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0shog_vBEemI2q5Paz1LZw" name="admin" type="_P7V2wPtgEemZLMWfUrvw4g" association="_0sfzUPvBEemI2q5Paz1LZw"/>
+  </packagedElement>
+</uml:Model>
